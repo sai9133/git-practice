@@ -1,0 +1,6 @@
+This is sai...
+
+
+.> git init-> create a repo
+
+untracking files--> we are just created. we not run any commands.it not execute any thing.
