@@ -1,7 +1,14 @@
 class Sai{
 
-public viod  print()
+public void print(int a)
 {
-System.out.println("this is loki");
+   for(int i=1;i<a;i++)
+   System.out.println("this is loki");
+   
+}
+public static void main (String[] args)
+{
+   int x=10;
+   print();
 }
 }
