@@ -1,7 +1,19 @@
 
 
-12344567890abcsdefg
 
-hiiiii
-+
-hello
+public class SecondLargestNo {
+public static void main(String[] args) {
+	int a[]= {4,2,1,5,3};
+	int rs=getSecondLargest(a,a.length);
+	System.out.println("second largest no is "+rs);
+}
+
+private static int getSecondLargest(int[] a, int i) {
+	Arrays.sort(a);
+	return a[i-2];
+}
+
+}
+
+
+o/p:second largest no is 4
