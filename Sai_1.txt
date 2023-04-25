@@ -1,0 +1,30 @@
+class Sai{
+
+public void print(int a)
+{
+   for(int i=1;i<a;i++)
+   System.out.println("this is loki");
+   sai();
+   
+}
+public static void main (String[] args)
+{
+   int x=10;
+   print();
+}
+static void sai()
+{
+   int x=10;
+   boolean b=true;
+   while(b)
+   {
+	System.out.println("Good boy..")
+       x--;
+      if(x==0)
+        {
+		break;
+        }
+   }
+
+}
+}
